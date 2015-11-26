@@ -1,0 +1,41 @@
+<ion-view view-title="Conferenciante">
+  <ion-content>
+    <div style="display:inline-block; vertical-align:top;">
+      	<img  ng-src="{{speaker.profile_picture || '../img/no-profile-picture.png'}}" style="width: 100px; height: 100px; border-radius: 50px;">
+    </div>
+    <div style="display:inline-block; padding-top:30px;">
+	    <span style="font-size: 30px; color: black; display:inline-block;">{{speaker.name}}</span>
+	    </br>
+	    {{speaker.organization}}
+	</div>
+	<ion-list>
+		<ion-item>
+			<b>Fecha:</b> Viernes, algo de abril de 2016
+		</ion-item>
+		<ion-item>
+			<b>Hora:</b> {{speaker.start}} - {{speaker.end}}
+		</ion-item>
+		<ion-item>
+			<b>Lugar:</b> Anfiteatro Luis Morales Carrión, Universidad de Puerto Rico en Cayey
+		</ion-item>
+		<ion-item>
+			<b>Charla:</b> {{speaker.talk}}
+		</ion-item>
+		<ion-item>
+			<b>Información:</b> {{speaker.about}}
+		</ion-item>
+		<ion-item ng-show="{{speaker.email}}">
+			<b>E-mail:</b> {{speaker.email}}
+		</ion-item>
+		<ion-item ng-show="{{speaker.linkedin}}">
+			<i class="icon ion-social-linkedin" style="font-size:25px; margin-right:1px"></i><b>:</b> 
+			<a ng-href="{{speaker.linkedin}}">
+				{{speaker.linkedin}}
+			</a>
+		</ion-item>
+		<ion-item ng-show="{{speaker.webpage}}" type="item-text-wrap">
+			<b>Webpage:</b> {{speaker.email}}
+		</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

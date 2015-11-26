@@ -1,0 +1,20 @@
+<ion-view view-title="Programa">
+  <ion-content>
+    <div class="card" ng-repeat="item in program">
+      <div class="item item-divider">
+        {{item.name}}
+      </div>
+      <div class="item item-text-wrap">
+        <div>
+          {{item.start}} - {{item.end}}
+        </div>
+        <div>
+          {{item.speaker}}
+        </div>
+        <div>
+          {{item.organization}}
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
