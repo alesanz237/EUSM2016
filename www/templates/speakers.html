@@ -1,7 +1,7 @@
 <ion-view view-title="Conferenciantes">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="speaker in speakers" href="#/app/speakers/{{speaker.sid}}" type="item-text-wrap">
+      <ion-item ng-repeat="speaker in speakers" href="#/app/speakers/{{speaker.sid}}" type="item-text-wrap" style="white-space: normal; text-align: justify;">
       	<div style="display:inline-block;vertical-align:top;">
       		<img  ng-src="{{speaker.profile_picture || '../img/no-profile-picture.png'}}" style="width: 50px; height: 50px; border-radius: 50px;">
       	</div>

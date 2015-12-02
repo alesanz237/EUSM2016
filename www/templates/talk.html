@@ -1,0 +1,32 @@
+<ion-view view-title="Charla">
+  <ion-content class="has-footer">
+  	<!-- <h1>{{talk.name}}</h1> -->
+    <!-- <div style="display:inline-block; padding-top:30px;">
+	    <span style="font-size: 30px; color: black; display:inline-block;"></span>
+	    </br>
+	    {{speaker.organization}}
+	</div> -->
+	<ion-list>
+		<ion-item style="white-space: normal; text-align: justify;">
+			<b>Charla:</b> {{talk.name}}
+		</ion-item>
+		<ion-item style="white-space: normal; text-align: justify;">
+			<b>Conferenciante:</b> {{speaker.name}}
+		</ion-item>
+		<ion-item>
+			<b>Hora:</b> {{talk.start}} - {{talk.end}}
+		</ion-item>
+		<ion-item style="white-space: normal; text-align: justify;">
+			<b>Lugar:</b> Anfiteatro Morales Carrión en la Universidad de Puerto Rico en Cayey
+		</ion-item>
+		<ion-item style="white-space: normal; text-align: justify;">
+			<b>Resumen:</b> {{talk.description}} 
+		</ion-item>
+		<label><h4 style="margin-left:15px;">Objetivos:</h4></label>
+		<ion-item ng-repeat="objetivo in talk.objetivos" style="white-space: normal; text-align: justify;">
+			{{objetivo}}
+		</ion-item>
+    </ion-list>
+  </ion-content>
+
+</ion-view>

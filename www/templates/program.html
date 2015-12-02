@@ -1,18 +1,22 @@
 <ion-view view-title="Programa">
-  <ion-content>
-    <div class="card" ng-repeat="item in program">
-      <div class="item item-divider">
-        {{item.name}}
-      </div>
-      <div class="item item-text-wrap">
-        <div>
-          {{item.start}} - {{item.end}}
+  <ion-content class="has-footer">
+    <div style="padding:10px;">
+      <div class="card" ng-repeat="item in program" >
+        <div class="item item-divider">
+          <a ng-show="{{item.tid}}" ng-href="#/app/talk/{{item.tid}}" style="white-space: normal; text-align: justify;">{{item.name}}
+          </a>
+          <span ng-hide="{{item.tid}}" style="white-space: normal; text-align: justify;">{{item.name}}</span>
         </div>
-        <div>
-          {{item.speaker}}
-        </div>
-        <div>
-          {{item.organization}}
+        <div class="item item-text-wrap">
+          <div>
+            {{item.start}} - {{item.end}}
+          </div>
+          <div>
+            {{item.speaker}}
+          </div>
+          <div>
+            {{item.organization}}
+          </div>
         </div>
       </div>
     </div>

@@ -8,24 +8,24 @@
 	    </br>
 	    {{speaker.organization}}
 	</div>
-	<ion-list>
-		<ion-item>
-			<b>Fecha:</b> Viernes, algo de abril de 2016
-		</ion-item>
-		<ion-item>
-			<b>Hora:</b> {{speaker.start}} - {{speaker.end}}
-		</ion-item>
-		<ion-item>
-			<b>Lugar:</b> Anfiteatro Luis Morales Carrión, Universidad de Puerto Rico en Cayey
-		</ion-item>
-		<ion-item>
-			<b>Charla:</b> {{speaker.talk}}
-		</ion-item>
-		<ion-item>
-			<b>Información:</b> {{speaker.about}}
+	<ion-list style="padding: 30px;">
+		<ion-item style="white-space: normal; text-align: justify;">
+			<b>Charla:</b> <a ng-href="#/app/talk/{{speaker.tid}}"> {{speaker.talk}}</a>
 		</ion-item>
 		<ion-item ng-show="{{speaker.email}}">
 			<b>E-mail:</b> {{speaker.email}}
+		</ion-item>
+		<ion-item ng-show="{{speaker.grade}}">
+			<b>Grado:</b> {{speaker.grade}}
+		</ion-item>
+		<ion-item ng-show="{{speaker.university}}">
+			<b>Educacion:</b> {{speaker.university}} 
+		</ion-item>
+		<ion-item ng-show="{{speaker.especialidad}}">
+			<b>Especialidad:</b> {{speaker.especialidad}}
+		</ion-item>
+		<ion-item ng-show="{{speaker.about}}" style="white-space: normal; text-align: justify;">
+			<b>Información:</b> {{speaker.about}}
 		</ion-item>
 		<ion-item ng-show="{{speaker.linkedin}}">
 			<i class="icon ion-social-linkedin" style="font-size:25px; margin-right:1px"></i><b>:</b> 
@@ -33,9 +33,7 @@
 				{{speaker.linkedin}}
 			</a>
 		</ion-item>
-		<ion-item ng-show="{{speaker.webpage}}" type="item-text-wrap">
-			<b>Webpage:</b> {{speaker.email}}
-		</ion-item>
     </ion-list>
   </ion-content>
+
 </ion-view>

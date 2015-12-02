@@ -77,6 +77,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'SpeakerCtrl'
       }
     }
+  })
+
+  .state('app.talk', {
+    url: '/talk/:talkid',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/talk.html',
+        controller: 'TalkCtrl'
+      }
+    }
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/speakers');
