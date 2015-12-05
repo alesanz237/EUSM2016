@@ -33,10 +33,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   })
 
   .state('app.search', {
-    url: '/search',
+    url: '/welcome',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/welcome.html'
       }
     }
   })
@@ -89,5 +89,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/speakers');
+  $urlRouterProvider.otherwise('/app/welcome');
 });

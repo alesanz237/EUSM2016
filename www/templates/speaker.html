@@ -1,5 +1,7 @@
 <ion-view view-title="Conferenciante">
-  <ion-content>
+  <ion-content style="background: white;
+    background-attachment:fixed;
+    background-position: center;">
     <div style="display:inline-block; vertical-align:top;">
       	<img  ng-src="{{speaker.profile_picture || '../img/no-profile-picture.png'}}" style="width: 100px; height: 100px; border-radius: 50px;">
     </div>
@@ -9,7 +11,7 @@
 	    {{speaker.organization}}
 	</div>
 	<ion-list style="padding: 30px;">
-		<ion-item style="white-space: normal; text-align: justify;">
+		<ion-item style="white-space: normal;">
 			<b>Charla:</b> <a ng-href="#/app/talk/{{speaker.tid}}"> {{speaker.talk}}</a>
 		</ion-item>
 		<ion-item ng-show="{{speaker.email}}">
