@@ -18,6 +18,16 @@ angular.module('starter.controllers', [])
   console.log($scope.program);
 })
 
+.controller('LocationCtrl', function($scope){
+	$scope.showSpinner = true;
+
+	window.dontShowSpinner=function(){
+  		$scope.showSpinner = false;
+  		document.getElementById("spinner").remove();
+	}
+
+})
+
 .controller('TalkCtrl', function($scope, $stateParams, Talks, Speakers) {
   // console.log($stateParams.talkid);
   $scope.talk = Talks.getTalk($stateParams.talkid);

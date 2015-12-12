@@ -3,10 +3,10 @@
     background-attachment:fixed;
     background-position: center;">
 	<ion-list style="background: transparent;">
-		<ion-item style="white-space: normal; text-align: justify; background: transparent;">
+		<ion-item style="white-space: normal; background: transparent;">
 			<b>Charla:</b> {{talk.name}}
 		</ion-item>
-		<ion-item style="white-space: normal; text-align: justify;">
+		<ion-item style="white-space: normal; ">
 			<b>Conferenciante:</b> 
 			<a ng-href="#/app/speakers/{{speaker.sid}}">
 				{{speaker.name}}
@@ -15,14 +15,14 @@
 		<ion-item>
 			<b>Hora:</b> {{talk.start}} - {{talk.end}}
 		</ion-item>
-		<ion-item style="white-space: normal; text-align: justify;">
+		<ion-item style="white-space: normal;">
 			<b>Lugar:</b> Anfiteatro Morales Carrión en la Universidad de Puerto Rico en Cayey
 		</ion-item>
-		<ion-item style="white-space: normal; text-align: justify;">
+		<ion-item style="white-space: normal; ">
 			<b>Resumen:</b> {{talk.description}} 
 		</ion-item>
 		<label><h4 style="margin-left:15px;">Objetivos:</h4></label>
-		<ion-item ng-repeat="objetivo in talk.objetivos" style="white-space: normal; text-align: justify;">
+		<ion-item ng-repeat="objetivo in talk.objetivos" style="white-space: normal;">
 			{{objetivo}}
 		</ion-item>
     </ion-list>
