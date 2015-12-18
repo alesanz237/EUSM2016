@@ -2,14 +2,15 @@
 .scroll{height: 100%;}
 
 body {
-    background: url(../img/digital.jpg);
-    /*background: aliceblue;*/
+    /*background: url(../img/digital.jpg);*/
+    background: aliceblue;
     background-attachment:fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .pane, .menu, .view, .item, .list, .h1{
-    background: transparent;
+    /*background: transparent;*/
 }
 
 .centered {

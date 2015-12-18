@@ -5,21 +5,21 @@ angular.module('starter.services', [])
 
   // Falta añadirle su CV
   var speakers = [{
-    sid: 1,
-    tid: 1,
-    name: 'Dr. Luis O Cañals',
-    organization: 'Pontificia Universidad Católica de Puerto Rico',
-    profile_picture: '../img/luisCanals.jpg',
-    talk: 'Tecnología de información y comunicación: Transformaciones desde lo complejo, vivir conectado, ¿Adicción a la red?',
-    email: 'luis_canals@pucpr.edu',
-    especialidad: 'Psicología Industrial Organizacional',
+    sid: 6,
+    tid: 6,
+    name: 'Dr. Axel A. Santos Figueroa',
+    organization: 'Universidad de Puerto Rico en Mayagüez',
+    profile_picture: '../img/axelSantos.jpg',
+    talk: 'Desorden de videojuegos por Internet',
+    email: 'axel.santos1@upr.edu',
+    especialidad: 'Psicología Clínica',
     grade: 'Doctorado',
-    university:'Pontificia Universidad Católica de Puerto Rico',
+    university:'Universidad de Puerto Rico, en Río Piedras',
     facultad:'Ciencias Sociales',
-    concentracion:'Psicología Industrial Ogranizacional',
-    linkedin: 'https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=125287946',
-    afiliaciones: ['Asociación de Psicología de Puerto Rico', 'Society for media psychology and technology '],
-    about: 'El doctor Luis O. Cañals Berrios, es psicólogo licenciado, posee un bachillerato en Ciencias Sociales  con una especialidad en Psicología de la Universidad de Puerto Rico, recinto de Cayey. Posee una maestría en Psicología industrial organizacional de la Universidad Interamericana de Puerto Rico y un doctorado en la misma área de la Pontificia Universidad Católica de Puerto Rico en Ponce. Es miembro de la Sociedad Interamericana de Psicología. Fue galardonado con la medalla Dra. María H. Márquez, reconocimiento que se le otorga al estudiante con el promedio más alto y destacado en el área de Psicología Industrial Organizacional en la Pontificia Universidad Católica de Puerto Rico en Ponce. Posee además una certificación profesional en salud y seguridad ocupacional otorgada por OSHA y otra en gestoría de entornos virtuales de aprendizaje de Columbia Centro Universitario. \nActualmente el Dr. Cañals es Catedrático Asociado en la Pontificia Universidad Católica de Puerto Rico en Ponce. Es Presidente de Cañals y Asociados. Colabora además con la División de Educación Contínua (DECA) de Columbia Centro Universitario en Caguas. '
+    concentracion:'Psicología Clínica',
+    linkedin: 'https://www.linkedin.com/profile/view?id=AAkAAA0qt9ABCPIm6KYM8_sVDJo3yxpCO42uEs8&authType=NAME_SEARCH&authToken=4nTQ&locale=en_US&trk=tyah&goback=',
+    afiliaciones: ['Asociación de Psicología de Puerto Rico', 'Colectivo Ideologías y Vivencias de los Géneros'],
+    about: ''
   }, {
     sid: 2,
     tid: 2,
@@ -37,6 +37,22 @@ angular.module('starter.services', [])
     afiliaciones: [' Asociación Puertorriqueña de Educación Consejería y Terapia Sexual','World Association of Sexual Health'],
     about: 'La Dra. Carmen G. Valcárcel es doctora en medicina graduada del Recinto de Ciencias Médicas de la Universidad de Puerto Rico, clase del 1996. La Dra. Valcárcel completó una especialidad en Medicina de Emergencias en el programa de la Universidad de Puerto Rico, Recinto de Ciencias Médicas. Completó una Certificación Profesional en Sexualidad Humana de la División de Educación Continua y Estudios Profesionales de la Universidad de Puerto Rico.  La Dra. Valcárcel también completó el grado en Doctora en Filosofía en Sexología Clínica de la American Academy of Clinical Sexologists. La Dra. Valcárcel es también maestra (“Master”) de Usui Reiki tradicional.\nLa Dra. Valcárcel se dedica a la práctica de la Sexología Médica. La Dra. Valcárcel está certificada como educadora sexual por la Asociación Puertorriqueña de Educación, Consejería y Terapia Sexual. La Dra. Valcárcel ofrece charlas, talleres y entrevistas en los medios de comunicación para promover sexualidad saludable y educar al pueblo sobre asuntos de sexología. La Dra. Valcárcel es también parte de la facultad del certificado de terapia sexual de la Universidad Carlos Albizu. La Dra. Valcárcel es pasada presidenta de  la Asociación Puertorriqueña de Educación, Consejería y Terapia Sexual.'
   }, {
+    sid: 5,
+    tid: 5,
+    name: 'Dra. Gertrudis Maldonado Ríos',
+    organization: 'Universidad de Puerto Rico en Cayey',
+    profile_picture: '../img/gertrudisMaldonado.jpg',
+    talk: 'Dilemas éticas en la era digital',
+    email: '',
+    especialidad:'',
+    grade:'',
+    university:'',
+    facultad:'',
+    linkedin: 'https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=126618339',
+    afilicaciones: [],
+    about: ''
+    
+  }, {
     sid: 3,
     tid: 3,
     name: 'Dr. Leslie E. Maldonado Feliciano',
@@ -52,6 +68,23 @@ angular.module('starter.services', [])
     linkedin: 'https://www.linkedin.com/profile/view?id=AAkAABJIzOUBDDaUoS8saoqBOJNjyhGcksqbFRg&authType=NAME_SEARCH&authToken=yVVC&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A306760933%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1448904128745%2Ctas%3Aleslie%20mal',
     afiliaciones: ['Asociación de Psicología de Puerto Rico', 'American Psychological Association'],
     about: ''
+    
+  },{
+    sid: 1,
+    tid: 1,
+    name: 'Dr. Luis O Cañals',
+    organization: 'Pontificia Universidad Católica de Puerto Rico',
+    profile_picture: '../img/luisCanals.jpg',
+    talk: 'Tecnología de información y comunicación: Transformaciones desde lo complejo, vivir conectado, ¿Adicción a la red?',
+    email: 'luis_canals@pucpr.edu',
+    especialidad: 'Psicología Industrial Organizacional',
+    grade: 'Doctorado',
+    university:'Pontificia Universidad Católica de Puerto Rico',
+    facultad:'Ciencias Sociales',
+    concentracion:'Psicología Industrial Ogranizacional',
+    linkedin: 'https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=125287946',
+    afiliaciones: ['Asociación de Psicología de Puerto Rico', 'Society for media psychology and technology '],
+    about: 'El doctor Luis O. Cañals Berrios, es psicólogo licenciado, posee un bachillerato en Ciencias Sociales  con una especialidad en Psicología de la Universidad de Puerto Rico, recinto de Cayey. Posee una maestría en Psicología industrial organizacional de la Universidad Interamericana de Puerto Rico y un doctorado en la misma área de la Pontificia Universidad Católica de Puerto Rico en Ponce. Es miembro de la Sociedad Interamericana de Psicología. Fue galardonado con la medalla Dra. María H. Márquez, reconocimiento que se le otorga al estudiante con el promedio más alto y destacado en el área de Psicología Industrial Organizacional en la Pontificia Universidad Católica de Puerto Rico en Ponce. Posee además una certificación profesional en salud y seguridad ocupacional otorgada por OSHA y otra en gestoría de entornos virtuales de aprendizaje de Columbia Centro Universitario. \nActualmente el Dr. Cañals es Catedrático Asociado en la Pontificia Universidad Católica de Puerto Rico en Ponce. Es Presidente de Cañals y Asociados. Colabora además con la División de Educación Contínua (DECA) de Columbia Centro Universitario en Caguas. '
   }, {
     sid: 4,
     tid: 4,
@@ -67,37 +100,6 @@ angular.module('starter.services', [])
     concentracion:'Psicología Clínica',
     linkedin: 'https://www.linkedin.com/profile/view?id=AAkAAAigOFMBOSZAZe0pbcj2ylFFqFnyESLWbB4&authType=NAME_SEARCH&authToken=f4e2&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A144717907%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1448904072655%2Ctas%3Amarco',
     afiliaciones: ['Asociación de Psicología de Puerto Rico', 'American Psychological Association'],
-    about: ''
-  },{
-    sid: 5,
-    tid: 5,
-    name: 'Dra. Gertrudis Maldonado Ríos',
-    organization: 'Universidad de Puerto Rico en Cayey',
-    profile_picture: '../img/gertrudisMaldonado.jpg',
-    talk: 'Dilemas éticas en la era digital',
-    email: '',
-    especialidad:'',
-    grade:'',
-    university:'',
-    facultad:'',
-    linkedin: 'https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=126618339',
-    afilicaciones: [],
-    about: ''
-  }, {
-    sid: 6,
-    tid: 6,
-    name: 'Dr. Axel A. Santos Figueroa',
-    organization: 'Universidad de Puerto Rico en Mayagüez',
-    profile_picture: '../img/axelSantos.jpg',
-    talk: 'Desorden de videojuegos por Internet',
-    email: 'axel.santos1@upr.edu',
-    especialidad: 'Psicología Clínica',
-    grade: 'Doctorado',
-    university:'Universidad de Puerto Rico, en Río Piedras',
-    facultad:'Ciencias Sociales',
-    concentracion:'Psicología Clínica',
-    linkedin: 'https://www.linkedin.com/profile/view?id=AAkAAA0qt9ABCPIm6KYM8_sVDJo3yxpCO42uEs8&authType=NAME_SEARCH&authToken=4nTQ&locale=en_US&trk=tyah&goback=',
-    afiliaciones: ['Asociación de Psicología de Puerto Rico', 'Colectivo Ideologías y Vivencias de los Géneros'],
     about: ''
   }];
 
