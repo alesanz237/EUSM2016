@@ -255,7 +255,7 @@ angular.module('starter.services', [])
     tid: 5,
     name: "Dilemas éticos en la era digital",
     speaker: "Dra. Gertrudis Maldonado Ríos",
-    organization: "Universidad de Puerto Rico en Caye"
+    organization: "Universidad de Puerto Rico en Cayey"
   },{
     start:"3:00 p.m.",
     end: "4:00 p.m.",
