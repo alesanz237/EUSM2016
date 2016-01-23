@@ -42,7 +42,7 @@ angular.module('starter.services', [])
     name: 'Dra. Gertrudis Maldonado Ríos',
     organization: 'Universidad de Puerto Rico en Cayey',
     profile_picture: '../img/gertrudisMaldonado.jpg',
-    talk: 'Dilemas éticas en la era digital',
+    talk: 'Dilemas éticos en la era digital',
     email: '',
     especialidad:'',
     grade:'',
@@ -166,7 +166,7 @@ angular.module('starter.services', [])
     tid: 5,
     start:"2:00 p.m.",
     end: "3:00 p.m.",
-    name: 'Dilemas éticas en la era digital',
+    name: 'Dilemas éticos en la era digital',
     description: ''
   },{
     tid: 6,
