@@ -9,8 +9,8 @@ body {
     background-repeat: no-repeat;
 }
 
-.pane, .menu, .view, .item, .list, .h1{
-    /*background: transparent;*/
+.pane, .menu, .view{
+    background: aliceblue;
 }
 
 .centered {
