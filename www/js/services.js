@@ -167,6 +167,11 @@ angular.module('starter.services', [])
     start:"2:00 p.m.",
     end: "3:00 p.m.",
     name: 'Dilemas éticos en la era digital',
+    objetivos: ["Revisión Histórica del Impacto que ha tenido la Tecnología en el Área de la Salud Mental.", 
+                "Identificar las Diversas Situaciones en que la Práctica Clínica se Beneficia.",
+                "Contrastar las formas adversas de la tecnología",
+                "Planteamientos éticos ante las áreas amenazadas",
+                "Resoluciones éticas para la práctica clínica"]
     description: ''
   },{
     tid: 6,
