@@ -171,7 +171,7 @@ angular.module('starter.services', [])
                 "Identificar las Diversas Situaciones en que la Práctica Clínica se Beneficia.",
                 "Contrastar las formas adversas de la tecnología",
                 "Planteamientos éticos ante las áreas amenazadas",
-                "Resoluciones éticas para la práctica clínica"]
+                "Resoluciones éticas para la práctica clínica"],
     description: ''
   },{
     tid: 6,
