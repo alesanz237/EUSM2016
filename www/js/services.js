@@ -218,28 +218,28 @@ angular.module('starter.services', [])
     start:"8:45 a.m.",
     end: "9:00 a.m.",
     name: 'Saludos y bienvenida',
-    speaker: "Dr. Mario Medina Cabán - Rector \nDra. Rochellie Martinez Vivas - Decana de Estudiantes\nDr. Lino A. Hernández Pereira - Director del CEDE y Coordinador del EUSM",
+    speaker: ["Dr. Mario Medina Cabán - Rector", "Dra. Rochellie Martinez Vivas - Decana de Estudiantes","Dr. Lino A. Hernández Pereira - Director del CEDE y Coordinador del EUSM"],
     organization: "" 
   },{
     start:"9:00 a.m.",
     end: "10:00 a.m.",
     tid: 1,
     name: 'Tecnología de información y comunicación: Transformaciones desde lo complejo, vivir conectado, ¿Adicción a la red?',
-    speaker:"Dr. Luis O. Cañals",
+    speaker:["Dr. Luis O. Cañals"],
     organization: "Centro de mejoramiento personal"
   },{
     start:"10:00 a.m.",
     end: "11:00 a.m.",
     tid: 2,
     name: 'Parafilias y el Internet',
-    speaker: "Dra. Carmen G. Valcárcel Mercado",
+    speaker:["Dra. Carmen G. Valcárcel Mercado"],
     organization: "Centro de mejoramiento personal"
   },{
     start:"11:00 a.m.",
     end: "12:00 p.m.",
     tid: 3,
     name: "Consideraciones éticas y legales en la presetación de servicios psicológicos mediante Telepsicología",
-    speaker: "Dr. Leslie E. Maldonado Feliciano",
+    speaker:["Dr. Leslie E. Maldonado Feliciano"],
     organization: "VA carribean Health Care System"
   },{
     start:"12:00 p.m.",
@@ -252,21 +252,21 @@ angular.module('starter.services', [])
     end: "2:00 p.m.",
     tid: 4,
     name: "Integrando la tecnología móvil (mHealth en el escenario de psicoterapia",
-    speaker: "Dr. Marcos Reyes Estrada",
+    speaker:["Dr. Marcos Reyes Estrada"],
     organization: "VA Carribean Health Care System"
   },{
     start:"2:00 p.m.",
     end: "3:00 p.m.",
     tid: 5,
     name: "Dilemas éticos en la era digital",
-    speaker: "Dra. Gertrudis Maldonado Ríos",
+    speaker:["Dra. Gertrudis Maldonado Ríos"],
     organization: "Universidad de Puerto Rico en Cayey"
   },{
     start:"3:00 p.m.",
     end: "4:00 p.m.",
     tid: 6,
     name: "Desorden de videojuegos por internet",
-    speaker: "Dr. Axel A. Santos Figueroa",
+    speaker:["Dr. Axel A. Santos Figueroa"],
     organization: "Universidad de Puerto Rico en Mayagüez"
   },{
     start:"4:00 p.m.",

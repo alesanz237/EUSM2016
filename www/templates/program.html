@@ -13,8 +13,8 @@
           <div>
             {{item.start}} - {{item.end}}
           </div>
-          <div>
-            {{item.speaker}}
+          <div ng-repeat="person in item.speaker">
+            {{person}}
           </div>
           <div>
             {{item.organization}}
